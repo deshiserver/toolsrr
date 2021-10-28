@@ -4305,12 +4305,12 @@ ul {
     }
 }
 
-.home-items_showcase_block_component__root {
+.toolsrr-featuared-block {
     padding-top: calc(var(--spacing--xl)*2);
     padding-bottom: calc(var(--spacing--xl)*3)
 }
 
-.home-items_showcase_block_component__wrapper {
+.toolsrr-featuared-block-wrap {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto;
@@ -4319,30 +4319,30 @@ ul {
     max-width: var(--container-width)
 }
 
-.home-items_showcase_block_component__grid {
+.toolsrr-featuared-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center
 }
 
 @supports (display:grid) {
-    .home-items_showcase_block_component__grid {
+    .toolsrr-featuared-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))
     }
 }
 
-.home-items_showcase_block_component__gridItem {
+.toolsrr-featuared-gridItem {
     flex: 1 0 320px;
     min-width: 0
 }
 
-.home-items_showcase_block_component__textArea {
+.toolsrr-featuared-showcase {
     position: relative;
     grid-column: 1/-1
 }
 
-.home-items_showcase_block_component__textAreaInner {
+.toolsrr-featuared-showcaseInner {
     border-radius: var(--spacing--s);
     height: 100%;
     position: relative;
@@ -4354,7 +4354,7 @@ ul {
     text-align: center
 }
 
-.home-items_showcase_block_component__title {
+.toolsrr-featuared-title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: var(--font-size--h2);
@@ -4363,7 +4363,7 @@ ul {
     font-weight: var(--font-weight--regular)
 }
 
-.home-items_showcase_block_component__subtitle {
+.toolsrr-featuared-subtitle {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: var(--font-size--body-l);
@@ -4372,17 +4372,17 @@ ul {
     padding: var(--spacing--m) 0
 }
 
-.home-items_showcase_block_component__cardWrapper {
+.toolsrr-featuared-card-area {
     padding: var(--spacing--m);
     height: 100%
 }
 
-.home-items_showcase_block_component__leftButton,
+.toolsrr-featuared-btn,
 .home-items_showcase_block_component__lowerButton {
     position: relative
 }
 
-.home-items_showcase_block_component__leftButton {
+.toolsrr-featuared-btn {
     margin: var(--spacing--m) auto 0 0;
     display: none
 }
@@ -4393,23 +4393,23 @@ ul {
 }
 
 @media (min-width:960px) {
-    .home-items_showcase_block_component__grid {
+    .toolsrr-featuared-grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(310px, 1fr))
     }
 
-    .home-items_showcase_block_component__wrapper {
+    .toolsrr-featuared-block-wrap {
         flex-direction: row
     }
 
-    .home-items_showcase_block_component__textArea {
+    .toolsrr-featuared-showcase {
         grid-column: auto;
         grid-row: span 2;
         border-radius: var(--spacing--s);
         margin: var(--spacing--m)
     }
 
-    .home-items_showcase_block_component__textArea:before {
+    .toolsrr-featuared-showcase:before {
         content: "";
         border-radius: 8px;
         width: 100%;
@@ -4420,14 +4420,14 @@ ul {
         left: 12px
     }
 
-    .home-items_showcase_block_component__textAreaInner {
+    .toolsrr-featuared-showcaseInner {
         background: hsla(0, 0%, 100%, .8);
         border-radius: var(--spacing--s);
         padding: calc(var(--spacing--xl)*2);
         text-align: left
     }
 
-    .home-items_showcase_block_component__leftButton {
+    .toolsrr-featuared-btn {
         display: inline-block
     }
 
@@ -4441,7 +4441,7 @@ ul {
         grid-template-columns: repeat(4, minmax(320px, 1fr))
     }
 
-    .home-items_showcase_block_component__evenGrid .home-items_showcase_block_component__textArea {
+    .home-items_showcase_block_component__evenGrid .toolsrr-featuared-showcase {
         grid-column: span 2
     }
 }
@@ -11406,7 +11406,7 @@ only screen and (min-resolution:120dpi) {
     padding-right: var(--spacing--xs)
 }
 
-.shared-item_cards-sales_component__root {
+.toolsrr-featuared-card-sales {
     line-height: var(--font-size--body-xl);
     color: var(--color-ui--grey-60);
     font-size: var(--font-size--body-xs)
