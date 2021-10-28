@@ -382,3 +382,7 @@ a:hover {
 .shared-global_header-categories_menu_component__linksList {
     float: right;
 }
+.toolsrr-newest-single-item-card-btn {
+
+    display: none;
+}
