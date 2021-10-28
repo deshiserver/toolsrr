@@ -7786,7 +7786,7 @@ body.loading .layouts-application_layout__spinner {
     }
 }
 
-.view-more-btn {
+.shared-cta_button_component__root {
     display: inline-block;
     border-radius: var(--border-radius--xs);
     color: var(--color-ui--white);
@@ -7803,7 +7803,7 @@ body.loading .layouts-application_layout__spinner {
     font-size: var(--font-size--body-s)
 }
 
-.view-more-btn.view-more-btn-large {
+.shared-cta_button_component__root.shared-cta_button_component__large {
     border-width: 0;
     font-size: var(--font-size--body-m);
     border-radius: var(--border-radius--xs);
@@ -7812,25 +7812,25 @@ body.loading .layouts-application_layout__spinner {
     margin: auto
 }
 
-.view-more-btn.shared-cta_button_component__fixedWidth {
+.shared-cta_button_component__root.shared-cta_button_component__fixedWidth {
     min-width: 180px;
     padding: 6px var(--spacing--xl)
 }
 
-.view-more-btn.shared-cta_button_component__medium {
+.shared-cta_button_component__root.shared-cta_button_component__medium {
     font-size: var(--font-size--body-m);
     box-shadow: 0 2px 0 var(--color-ui--green-dark);
     width: 164px;
     height: 36px
 }
 
-.view-more-btn.shared-cta_button_component__small {
+.shared-cta_button_component__root.shared-cta_button_component__small {
     background-color: var(--color-ui--green-primary);
     border-radius: var(--border-radius--xxs);
     padding: var(--spacing--xs) var(--spacing--m)
 }
 
-.view-more-btn.shared-cta_button_component__smallBold {
+.shared-cta_button_component__root.shared-cta_button_component__smallBold {
     font-weight: var(--font-weight--bold);
     border-radius: var(--border-radius--xxs);
     background-color: var(--color-ui--green-primary);
@@ -7838,7 +7838,7 @@ body.loading .layouts-application_layout__spinner {
     padding: var(--spacing--s) var(--spacing--m)
 }
 
-.view-more-btn.shared-cta_button_component__smallWide {
+.shared-cta_button_component__root.shared-cta_button_component__smallWide {
     background-color: var(--color-ui--green-primary);
     border: 1px solid var(--color-ui--green-primary);
     padding: 8px 32px;
