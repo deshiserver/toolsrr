@@ -4606,7 +4606,7 @@ ul {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    background-color: var(--color-ui--white);
+    /* background-color: var(--color-ui--white); */
     color: var(--color-ui--grey-20);
     padding: calc(var(--spacing--s) + var(--spacing--xxs)) var(--spacing--xs);
     border: 2px solid transparent
