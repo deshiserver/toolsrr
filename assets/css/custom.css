@@ -489,7 +489,13 @@ a:hover {
     font-size: var(--fontSize-b-s);
     margin-top: 10px;
 }
-
+.toolsrr-header-grid-width {
+    max-width: var(--container-width);
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 0 !important;
+    margin-right: auto;
+}
 
 /* Color concept  */
 .bg-dark {
