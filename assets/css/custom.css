@@ -382,7 +382,30 @@ a:hover {
 .shared-global_header-categories_menu_component__linksList {
     float: right;
 }
+
 .toolsrr-newest-single-item-card-btn {
 
     display: none;
+}
+
+.singular-bottom-img-ico {
+    display: none;
+}
+
+.toolsrr-featuared-showcase::before {
+    border: 0 !important;
+}
+
+.toolsrr-newest-single-item-card-footer {
+    display: none !important;
+}
+
+.toolsrr-des p {
+    color: #999999;
+}
+
+.toolsrr-des p {
+    color: #999999;
+    font-size: var(--fontSize-b-s);
+    margin-top: 10px;
 }
