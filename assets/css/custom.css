@@ -1,3 +1,6 @@
+@import './fake.css';
+@import './style.css';
+
 .top_search_content {
     display: -ms-flexbox;
     display: flex;
