@@ -327,11 +327,11 @@
 
 
 /* UnUsed Css remove later */
-.shared-global_header-markets_nav_component__siteLink {
+.toolsrr-header-nav-main-nav {
     color: #fff !important;
 }
 
-.shared-global_header-markets_nav_component__headerBottomWrapper {
+.toolsrr-header-btmwrap {
     /* background: white !important;
     border-top: 1px solid rgb(0 0 0 / 10%); */
     /* box-shadow: 0 1px 2px rgb(0 0 0 / 10%); */
@@ -345,8 +345,8 @@ a:hover {
     /* font-weight: bold; */
 }
 
-.shared-global_header-categories_menu_component__menuItem:hover>.shared-global_header-categories_menu_component__link,
-.shared-global_header-categories_menu_component__menuItem:hover>.shared-global_header-categories_menu_component__linkEmpty {
+.toolsrr-header-menu-s-item:hover>.toolsrr-header-menu-s-item-link,
+.toolsrr-header-menu-s-item:hover>.toolsrr-header-menu-s-item-linkEmpty {
     background-color: #fff !important;
 }
 
@@ -360,13 +360,13 @@ a:hover {
 
 
 
-.shared-global_header-markets_nav_component__navWithLabelWrapper {
+.toolsrr-header-nav-lvl-wrap {
     position: relative;
     display: flex !important;
 }
 
 
-.shared-global_header-markets_nav_component__active::after {
+.toolsrr-header-nav-main-nav-active::after {
     border: 6px solid transparent;
     border-top: none;
     border-bottom: 6px solid #f5f5f5;
@@ -379,8 +379,9 @@ a:hover {
     position: absolute;
 }
 
-.shared-global_header-categories_menu_component__linksList {
-    float: right;
+.toolsrr-header-menu-lnk-lst {
+    float: left;
+    margin-left: 15px;
 }
 
 .toolsrr-newest-single-item-card-btn {
@@ -415,34 +416,42 @@ a:hover {
 .bg-dark {
     background-color: #000000 !important;
 }
+
 a:active,
 a:hover {
     outline-width: 0;
     color: #F8A100 !important;
 }
+
 .toolsrr-newest-single-item-card-itemNameLink {
     color: #4D4D4D !important;
 }
+
 .toolsrr-newest-single-item-card-author-category {
     color: #999999 !important;
 }
+
 .toolsrr-newest-single-item-card-author {
     color: #4D4D4D !important;
 }
+
 .toolsrr-newest-items-categories-menu-link:hover {
     border: 2px solid #000;
     background-color: #383535;
     color: #fff;
     transition: .2s;
 }
+
 .btn-success {
     color: #fff;
     background-color: #000;
     border-color: #383535;
 }
-.btn-success:hover{
+
+.btn-success:hover {
     color: #fff !important;
     background-color: #000 !important;
     border-color: #383535 !important;
 }
+
 /* 4D4D4D */
