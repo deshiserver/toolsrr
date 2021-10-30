@@ -26,6 +26,7 @@ a {
 a:focus {
     outline: none !important;
 }
+
 a:hover {
     text-decoration: none;
     color: #F8A100;
@@ -538,3 +539,4 @@ iframe {
             width: 100%;
         }
     }
+}
