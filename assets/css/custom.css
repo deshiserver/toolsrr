@@ -92,7 +92,7 @@
 
 .singular-header {
     text-align: center;
-    color: hsl(0, 0%, 20%);
+    color: #383535;
     font-size: 16px;
     margin-top: -12px;
 }
@@ -101,7 +101,7 @@
     font-size: 32px;
     font-weight: 700;
     text-decoration: none;
-    color: hsl(0, 0%, 20%);
+    color: #383535;
 }
 
 .singular-short-desc {
@@ -411,3 +411,38 @@ a:hover {
 }
 
 
+/* Color concept  */
+.bg-dark {
+    background-color: #000000 !important;
+}
+a:active,
+a:hover {
+    outline-width: 0;
+    color: #F8A100 !important;
+}
+.toolsrr-newest-single-item-card-itemNameLink {
+    color: #4D4D4D !important;
+}
+.toolsrr-newest-single-item-card-author-category {
+    color: #999999 !important;
+}
+.toolsrr-newest-single-item-card-author {
+    color: #4D4D4D !important;
+}
+.toolsrr-newest-items-categories-menu-link:hover {
+    border: 2px solid #000;
+    background-color: #383535;
+    color: #fff;
+    transition: .2s;
+}
+.btn-success {
+    color: #fff;
+    background-color: #000;
+    border-color: #383535;
+}
+.btn-success:hover{
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #383535 !important;
+}
+/* 4D4D4D */
