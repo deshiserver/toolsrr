@@ -556,7 +556,16 @@ a:hover {
 
 
 
-
+.home-category_tiles_block_component__cta {
+    align-self: center;
+    margin-top: calc(var(--spacing--xl)*2);
+    margin: 0 auto;
+    text-align: center;
+}
+.singular-container {
+    padding-bottom: 60%;
+    border: 1px solid #ededed91;
+}
 /* Color concept  */
 .bg-dark {
     background-color: #000000 !important;
