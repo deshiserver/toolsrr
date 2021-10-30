@@ -496,12 +496,75 @@ a:hover {
     margin-left: 0 !important;
     margin-right: auto;
 }
+/* Footer 3 */
+/* .footer{margin-top: 50px;} */
+.social-icon a i {
+    color: #848181;
+    font-size: 22px;
+    padding: 0px 10px;
+}
+.footer .main-footer {
+    padding: 120px 0;
+    background: #000;
+}
+.footer .main-footer .info .logo {
+    width: 165px;
+    margin-bottom: 31px;
+}
+.footer .main-footer .info .part-txt p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #c9c9c9;
+    margin-bottom: 12px;
+}
+.footer .main-footer .links {
+    margin-bottom: -11px;
+}
+.footer .main-footer .links h3 {
+    font-size: 23px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -4px;
+    margin-bottom: 36px;
+}
+.footer .main-footer .links ul {
+    padding: 0;
+    margin: 0;
+}
+.footer .main-footer .links ul li {
+    list-style: none;
+}
+.footer .main-footer .links ul li a {
+    font-size: 17px;
+    line-height: 34px;
+    color: #c9c9c9;
+}
+.footer .copyright {
+    background: #222;
+    text-align: center;
+}
+.footer .copyright p {
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 26px;
+    margin-bottom: 0;
+    padding-bottom: 28px;
+}
+
+
+
 
 /* Color concept  */
 .bg-dark {
     background-color: #000000 !important;
 }
+.toolsrr-header-cates {
+    background-color: #fff !important;
 
+}
 a:active,
 a:hover {
     outline-width: 0;
